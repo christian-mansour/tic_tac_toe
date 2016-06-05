@@ -83,6 +83,19 @@ td {
   border: 10px solid #fff;
 }
 
+img {
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+img:hover {
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+}
+
 .teams {
   background-image: url(./images/miami-vs-fsu.jpeg);
   background-position: center center;
@@ -103,18 +116,7 @@ td {
   width: 20%;
   height: auto;
 }
-img {
-  opacity: 0.6;
-  transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -webkit-transition: opacity 1s ease-in-out;
-}
-img:hover {
-  opacity: 1.0;
-  transition: opacity .55s ease-in-out;
-  -moz-transition: opacity .55s ease-in-out;
-  -webkit-transition: opacity .55s ease-in-out;
-}
+
 .row {
   height: 40%;
   width: 40%;
