@@ -123,6 +123,7 @@ img:hover {
 #seminole img {
   position: relative;
   float: right;
+  top:-185px;
   width: 10%;
   height: auto;
 }
