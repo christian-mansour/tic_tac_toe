@@ -63,7 +63,7 @@ header {
   color: #fff;
   border: 6px solid #000;
   padding: 10px;
-  background-image: url(turf.jpeg);
+  background-image: url(./images/turf.jpeg);
   background-position: center center;
   height: 75px;
   background-size: cover;
@@ -71,7 +71,7 @@ header {
 }
 
 table {
-  background-image: url(turf.jpeg);
+  background-image: url(./images/turf.jpeg);
   background-position: center center;
   margin: 0 auto;
   width: 70%;
@@ -84,7 +84,7 @@ td {
 }
 
 .teams {
-  background-image: url(miami-vs-fsu.jpeg);
+  background-image: url(./images/miami-vs-fsu.jpeg);
   background-position: center center;
   -webkit-filter: contrast(60%);
   filter: contrast(60%);
